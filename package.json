@@ -20,7 +20,15 @@
     "claude",
     "model-context-protocol"
   ],
-  "author": "",
+  "author": "rimysore03",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rimysore/standupbot-mcp.git"
+  },
+  "homepage": "https://github.com/rimysore/standupbot-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/rimysore/standupbot-mcp/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
