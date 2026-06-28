@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.rimysore/standupbot",
+  "description": "Turns your GitHub activity into a daily standup — commits, PRs, reviews & issues.",
+  "repository": {
+    "url": "https://github.com/rimysore/standupbot-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "standupbot-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "GitHub personal access token with read:user and repo scopes. Generate at https://github.com/settings/tokens",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "GITHUB_TOKEN"
+        }
+      ]
+    }
+  ]
+}

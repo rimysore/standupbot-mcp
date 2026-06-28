@@ -1,7 +1,8 @@
 {
   "name": "standupbot-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server that summarizes your GitHub activity into a daily standup — commits, PRs, reviews, and issues in the last 24h.",
+  "mcpName": "io.github.rimysore/standupbot",
   "main": "dist/index.js",
   "bin": {
     "standupbot-mcp": "dist/index.js"
